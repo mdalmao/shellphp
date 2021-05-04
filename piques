@@ -1,0 +1,11 @@
+nc -lvp 1234
+
+levanta en la ip 10.0.0.10 el puerto 1234 para escuchar
+
+Si accedes a un wordpress, buscar todos sus archivos de configuracion
+find / -iname 'config.php$' | xargs cat * | grep -i “db_“
+
+Conseguir una shell desde FTP
+ftp> !sh
+
+https://gtfobins.github.io/
